@@ -1,0 +1,11 @@
+first_name =input("What is your first name?")
+last_name = input("What is your last name?")
+hobby = input("What is your favorite hobby?")
+birth_year = input("What is your Birth Year?")
+
+print("=========================\n", "Profile Card\n", "=========================")
+print("Name:", first_name, last_name)
+print("Hobby:", hobby)
+print("Age: ", 2026 - int(birth_year))
+print("=========================")
+print("Your Profile Card has been created successfully!")
